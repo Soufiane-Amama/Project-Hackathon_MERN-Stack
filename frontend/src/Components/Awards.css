@@ -1,0 +1,682 @@
+
+.Awards_Awards {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	margin: auto;
+	width: 100%;
+	height: 100vh;
+	overflow: auto;
+	background: rgba(0,145,124,1.00);
+}
+.Awards_Awards .Rectangle230 {
+	position: absolute;
+	left: 0px;
+	top: -6px;
+	width: 250px;
+	height: 1024px;
+	background: rgba(255,255,255,1.00);
+}
+.Awards_Awards .Rectangle231 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 1440px;
+	height: 114px;
+	background: rgba(255,255,255,1.00);
+}
+.Awards_Awards .whitelogo2 {
+	position: absolute;
+	left: 18px;
+	top: 25px;
+	width: 128px;
+	height: 69px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.Awards_Awards ._ {
+	position: absolute;
+	left: 781px;
+	top: 50px;
+	width: 84px;
+	height: 24px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(0,145,124,1.00);
+	font-family: Tajawal;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 28.80000114440918px;
+}
+.Awards_Awards .__1 {
+	position: absolute;
+	left: 892px;
+	top: 53px;
+	width: 193px;
+	height: 18px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(0,145,124,1.00);
+	font-family: Tajawal;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 28.80000114440918px;
+}
+.Awards_Awards .__2 {
+	position: absolute;
+	left: 1272px;
+	top: 39px;
+	width: 84px;
+	height: 58px;
+	display: flex;
+	justify-content: flex-end;
+	text-align: right;
+	color: rgba(0,145,124,1.00);
+	font-family: Tajawal;
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 18px;
+}
+.Awards_Awards .__3 {
+	position: absolute;
+	left: 643px;
+	top: 50px;
+	width: 111px;
+	height: 24px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(0,145,124,1.00);
+	font-family: Tajawal;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 28.80000114440918px;
+}
+.Awards_Awards .__4 {
+	position: absolute;
+	left: 423px;
+	top: 50px;
+	width: 193px;
+	height: 24px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(0,145,124,1.00);
+	font-family: Tajawal;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 28.80000114440918px;
+}
+.Awards_Awards .PersonCircle {
+	position: absolute;
+	left: 1361px;
+	top: 31px;
+	width: 50px;
+	height: 50px;
+	background: rgba(0,145,124,0.00);
+}
+.Awards_Awards .PersonCircle .Vector {
+	position: absolute;
+	left: 15.625px;
+	top: 9.375px;
+	width: 37.5%;
+	height: 37.5%;
+}
+.Awards_Awards .PersonCircle .Vector_1 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+}
+.Awards_Awards .SidebarMenu {
+	position: absolute;
+	left: 249px;
+	top: 0px;
+	width: 1px;
+	height: 1184px;
+}
+.Awards_Awards .SidebarMenu .Rectangle55 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 1px;
+	height: 1184px;
+	background: rgba(230,239,245,1.00);
+}
+.Awards_Awards .cloud {
+	position: absolute;
+	left: 273px;
+	top: 121px;
+	width: 292px;
+	height: 189px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.Awards_Awards .cloud_1 {
+	position: absolute;
+	left: 539px;
+	top: 229px;
+	width: 207px;
+	height: 134px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.Awards_Awards .cloud_2 {
+	position: absolute;
+	left: 682px;
+	top: 110px;
+	width: 313px;
+	height: 202px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.Awards_Awards .Group25 {
+	position: absolute;
+	left: 0px;
+	top: 121px;
+	width: 221px;
+	height: 250.5px;
+}
+.Awards_Awards .Group25 .settingssolid1 {
+	position: absolute;
+	left: 41px;
+	top: 133px;
+	width: 25px;
+	height: 25px;
+}
+.Awards_Awards .Group25 .settingssolid1 .Vector_2 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100.00019073486328%;
+	height: 100%;
+}
+.Awards_Awards .Group25 .transfer1 {
+	position: absolute;
+	left: 44px;
+	top: 64px;
+	width: 25px;
+	height: 25px;
+}
+.Awards_Awards .Group25 .transfer1 ._17transfer {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 99.99974822998047%;
+	height: 100%;
+}
+.Awards_Awards .Group25 .transfer1 ._17transfer .Glyph {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+}
+.Awards_Awards .Group25 .transfer1 ._17transfer .Glyph .Vector_3 {
+	position: absolute;
+	left: 5.20849609375px;
+	top: 22.005218505859375px;
+	width: 58.33348274268574%;
+	height: 11.979171752929688%;
+}
+.Awards_Awards .Group25 .transfer1 ._17transfer .Glyph .Vector_4 {
+	position: absolute;
+	left: 5.20849609375px;
+	top: 0px;
+	width: 58.33348274268574%;
+	height: 12.5%;
+}
+.Awards_Awards .Group25 .transfer1 ._17transfer .Glyph .Vector_5 {
+	position: absolute;
+	left: 19.79150390625px;
+	top: 3.4453125px;
+	width: 20.83325862865713%;
+	height: 30.893760681152344%;
+}
+.Awards_Awards .Group25 .transfer1 ._17transfer .Glyph .Vector_6 {
+	position: absolute;
+	left: 5.20849609375px;
+	top: 4.166656494140625px;
+	width: 58.33348274268574%;
+	height: 66.66667938232422%;
+}
+.Awards_Awards .Group25 .transfer1 ._17transfer .Glyph .Vector_7 {
+	position: absolute;
+	left: 0px;
+	top: 13.83123779296875px;
+	width: 20.833256721303695%;
+	height: 30.893745422363285%;
+}
+.Awards_Awards .Group25 .__5 {
+	position: absolute;
+	left: 95px;
+	top: 66px;
+	width: 70px;
+	height: 22px;
+	color: rgba(0,0,0,1.00);
+	font-family: Inter;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 21.784090042114258px;
+}
+.Awards_Awards .Group25 .__6 {
+	position: absolute;
+	left: 95px;
+	top: 134px;
+	width: 75px;
+	height: 22px;
+	color: rgba(0,0,0,1.00);
+	font-family: Inter;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 21.784090042114258px;
+}
+.Awards_Awards .Group25 .__7 {
+	position: absolute;
+	left: 95px;
+	top: 209px;
+	width: 65px;
+	height: 22px;
+	color: rgba(0,145,124,1.00);
+	font-family: Inter;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 21.784090042114258px;
+}
+.Awards_Awards .Group25 .Group24 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 221px;
+	height: 250.5px;
+}
+.Awards_Awards .Group25 .Group24 .home2 {
+	position: absolute;
+	left: 44px;
+	top: 0px;
+	width: 25px;
+	height: 25px;
+}
+.Awards_Awards .Group25 .Group24 .home2 .Vector_8 {
+	position: absolute;
+	left: -0.00048828125px;
+	top: 0px;
+	width: 99.98979187011719%;
+	height: 100%;
+}
+.Awards_Awards .Group25 .Group24 .__8 {
+	position: absolute;
+	left: 95px;
+	top: 2px;
+	width: 126px;
+	height: 22px;
+	color: rgba(0,0,0,1.00);
+	font-family: Tajawal;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 21.600000381469727px;
+}
+.Awards_Awards .Group25 .Group24 .Rectangle17 {
+	position: absolute;
+	left: 0px;
+	top: 190.5px;
+	width: 6px;
+	height: 60px;
+}
+.Awards_Awards .Group25 .Group24 .AwardFill {
+	position: absolute;
+	left: 39px;
+	top: 205px;
+	width: 30px;
+	height: 30px;
+}
+.Awards_Awards .Group25 .Group24 .AwardFill .Vector_9 {
+	position: absolute;
+	left: 4.30126953125px;
+	top: 0px;
+	width: 71.32500966389973%;
+	height: 75%;
+}
+.Awards_Awards .Group25 .Group24 .AwardFill .Vector_10 {
+	position: absolute;
+	left: 7.5px;
+	top: 22.113754272460938px;
+	width: 50%;
+	height: 26.287503242492676%;
+}
+.Awards_Awards .Frame17 {
+	position: absolute;
+	left: 59.02777777777778%;
+	top: 292px;
+	transform: translate(-50%, 0);
+	width: 1122px;
+	height: 674px;
+	background: rgba(255,255,255,1.00);
+	border-radius: 20px;
+}
+.Awards_Awards .Frame17 .Group400 {
+	position: absolute;
+	left: 15px;
+	top: 30px;
+	width: 1097.4149169921875px;
+	height: 128px;
+}
+.Awards_Awards .Frame17 .Group400 .badge1removebgpreview11 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 145.4149627685547px;
+	height: 128px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.Awards_Awards .Frame17 .Group400 .badge1removebgpreview12 {
+	position: absolute;
+	left: 158.4765625px;
+	top: 0px;
+	width: 145.4149627685547px;
+	height: 128px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.Awards_Awards .Frame17 .Group400 .badge1removebgpreview13 {
+	position: absolute;
+	left: 316.95263671875px;
+	top: 0px;
+	width: 145.4149627685547px;
+	height: 128px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.Awards_Awards .Frame17 .Group400 .badge1removebgpreview14 {
+	position: absolute;
+	left: 476px;
+	top: 0px;
+	width: 145.4149627685547px;
+	height: 128px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.Awards_Awards .Frame17 .Group400 .badge1removebgpreview15 {
+	position: absolute;
+	left: 634.66650390625px;
+	top: 0px;
+	width: 145.4149627685547px;
+	height: 128px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.Awards_Awards .Frame17 .Group400 .badge1removebgpreview16 {
+	position: absolute;
+	left: 793.33349609375px;
+	top: 0px;
+	width: 145.4149627685547px;
+	height: 128px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.Awards_Awards .Frame17 .Group400 .badge1removebgpreview17 {
+	position: absolute;
+	left: 952px;
+	top: 0px;
+	width: 145.4149627685547px;
+	height: 128px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.Awards_Awards .Frame17 .Group401 {
+	position: absolute;
+	left: 15px;
+	top: 169px;
+	width: 1097.4149169921875px;
+	height: 128px;
+}
+.Awards_Awards .Frame17 .Group401 .badge1removebgpreview11_1 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 145.4149627685547px;
+	height: 128px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.Awards_Awards .Frame17 .Group401 .badge1removebgpreview12_1 {
+	position: absolute;
+	left: 158.4765625px;
+	top: 0px;
+	width: 145.4149627685547px;
+	height: 128px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.Awards_Awards .Frame17 .Group401 .badge1removebgpreview13_1 {
+	position: absolute;
+	left: 316.95263671875px;
+	top: 0px;
+	width: 145.4149627685547px;
+	height: 128px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.Awards_Awards .Frame17 .Group401 .badge1removebgpreview14_1 {
+	position: absolute;
+	left: 476px;
+	top: 0px;
+	width: 145.4149627685547px;
+	height: 128px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.Awards_Awards .Frame17 .Group401 .badge1removebgpreview15_1 {
+	position: absolute;
+	left: 634.66650390625px;
+	top: 0px;
+	width: 145.4149627685547px;
+	height: 128px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.Awards_Awards .Frame17 .Group401 .badge1removebgpreview16_1 {
+	position: absolute;
+	left: 793.33349609375px;
+	top: 0px;
+	width: 145.4149627685547px;
+	height: 128px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.Awards_Awards .Frame17 .Group401 .badge1removebgpreview17_1 {
+	position: absolute;
+	left: 952px;
+	top: 0px;
+	width: 145.4149627685547px;
+	height: 128px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.Awards_Awards .Frame17 .Group402 {
+	position: absolute;
+	left: 15px;
+	top: 308px;
+	width: 1097.4149169921875px;
+	height: 128px;
+}
+.Awards_Awards .Frame17 .Group402 .badge1removebgpreview11_2 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 145.4149627685547px;
+	height: 128px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.Awards_Awards .Frame17 .Group402 .badge1removebgpreview12_2 {
+	position: absolute;
+	left: 158.4765625px;
+	top: 0px;
+	width: 145.4149627685547px;
+	height: 128px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.Awards_Awards .Frame17 .Group402 .badge1removebgpreview13_2 {
+	position: absolute;
+	left: 316.95263671875px;
+	top: 0px;
+	width: 145.4149627685547px;
+	height: 128px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.Awards_Awards .Frame17 .Group402 .badge1removebgpreview14_2 {
+	position: absolute;
+	left: 476px;
+	top: 0px;
+	width: 145.4149627685547px;
+	height: 128px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.Awards_Awards .Frame17 .Group402 .badge1removebgpreview15_2 {
+	position: absolute;
+	left: 634.66650390625px;
+	top: 0px;
+	width: 145.4149627685547px;
+	height: 128px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.Awards_Awards .Frame17 .Group402 .badge1removebgpreview16_2 {
+	position: absolute;
+	left: 793.33349609375px;
+	top: 0px;
+	width: 145.4149627685547px;
+	height: 128px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.Awards_Awards .Frame17 .Group402 .badge1removebgpreview17_2 {
+	position: absolute;
+	left: 952px;
+	top: 0px;
+	width: 145.4149627685547px;
+	height: 128px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.Awards_Awards .Frame17 .Group403 {
+	position: absolute;
+	left: 15px;
+	top: 447px;
+	width: 1097.4149169921875px;
+	height: 128px;
+}
+.Awards_Awards .Frame17 .Group403 .badge1removebgpreview11_3 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 145.4149627685547px;
+	height: 128px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.Awards_Awards .Frame17 .Group403 .badge1removebgpreview12_3 {
+	position: absolute;
+	left: 158.4765625px;
+	top: 0px;
+	width: 145.4149627685547px;
+	height: 128px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.Awards_Awards .Frame17 .Group403 .badge1removebgpreview13_3 {
+	position: absolute;
+	left: 316.95263671875px;
+	top: 0px;
+	width: 145.4149627685547px;
+	height: 128px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.Awards_Awards .Frame17 .Group403 .badge1removebgpreview14_3 {
+	position: absolute;
+	left: 476px;
+	top: 0px;
+	width: 145.4149627685547px;
+	height: 128px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.Awards_Awards .Frame17 .Group403 .badge1removebgpreview15_3 {
+	position: absolute;
+	left: 634.66650390625px;
+	top: 0px;
+	width: 145.4149627685547px;
+	height: 128px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.Awards_Awards .Frame17 .Group403 .badge1removebgpreview16_3 {
+	position: absolute;
+	left: 793.33349609375px;
+	top: 0px;
+	width: 145.4149627685547px;
+	height: 128px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.Awards_Awards .Frame17 .Group403 .badge1removebgpreview17_3 {
+	position: absolute;
+	left: 952px;
+	top: 0px;
+	width: 145.4149627685547px;
+	height: 128px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.Awards_Awards .__9 {
+	position: absolute;
+	left: 1056px;
+	top: 179px;
+	width: 305px;
+	height: 48px;
+	display: flex;
+	justify-content: flex-end;
+	text-align: right;
+	color: rgba(255,255,255,1.00);
+	font-family: Inter;
+	font-size: 40px;
+	font-weight: 600;
+	line-height: 48.409088134765625px;
+}
+.Awards_Awards .StarFill {
+	position: absolute;
+	left: 1372px;
+	top: 195px;
+	width: 23px;
+	height: 23px;
+}
+.Awards_Awards .StarFill .Vector_11 {
+	position: absolute;
+	left: 0.001953125px;
+	top: 0.718017578125px;
+	width: 100.0002736630647%;
+	height: 93.75311810037364%;
+}
+.Awards_Awards .StarFill_1 {
+	position: absolute;
+	left: 1022px;
+	top: 195px;
+	width: 23px;
+	height: 23px;
+}
+.Awards_Awards .StarFill_1 .Vector_12 {
+	position: absolute;
+	left: 0.001953125px;
+	top: 0.718017578125px;
+	width: 100.0002736630647%;
+	height: 93.75311810037364%;
+}

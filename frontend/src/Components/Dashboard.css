@@ -1,0 +1,1319 @@
+
+.Dashboard_Dashboard {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	margin: auto;
+	width: 100%;
+	height: 100vh;
+	overflow: auto;
+	background: rgba(0,145,124,1.00);
+}
+.Dashboard_Dashboard .cloud {
+	position: absolute;
+	left: 242px;
+	top: 94px;
+	width: 320px;
+	height: 207px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.Dashboard_Dashboard .cloud_1 {
+	position: absolute;
+	left: 714px;
+	top: 250px;
+	width: 233px;
+	height: 151px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.Dashboard_Dashboard .Rectangle230 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 250px;
+	height: 1024px;
+	background: rgba(255,255,255,1.00);
+}
+.Dashboard_Dashboard ._ {
+	position: absolute;
+	left: 97px;
+	top: 327px;
+	width: 65px;
+	height: 22px;
+	color: rgba(0,0,0,1.00);
+	font-family: Inter;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 21.784090042114258px;
+}
+.Dashboard_Dashboard .AwardFill {
+	position: absolute;
+	left: 41px;
+	top: 323px;
+	width: 30px;
+	height: 30px;
+}
+.Dashboard_Dashboard .AwardFill .Vector {
+	position: absolute;
+	left: 4.30126953125px;
+	top: 0px;
+	width: 71.32500966389973%;
+	height: 75%;
+}
+.Dashboard_Dashboard .AwardFill .Vector_1 {
+	position: absolute;
+	left: 7.5px;
+	top: 22.113754272460938px;
+	width: 50%;
+	height: 26.287503242492676%;
+}
+.Dashboard_Dashboard .Rectangle231 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 1440px;
+	height: 114px;
+	background: rgba(255,255,255,1.00);
+}
+.Dashboard_Dashboard .whitelogo2 {
+	position: absolute;
+	left: 18px;
+	top: 25px;
+	width: 128px;
+	height: 69px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.Dashboard_Dashboard .__1 {
+	position: absolute;
+	left: 781px;
+	top: 50px;
+	width: 84px;
+	height: 24px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(0,145,124,1.00);
+	font-family: Tajawal;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 28.80000114440918px;
+}
+.Dashboard_Dashboard .__2 {
+	position: absolute;
+	left: 892px;
+	top: 53px;
+	width: 193px;
+	height: 18px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(0,145,124,1.00);
+	font-family: Tajawal;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 28.80000114440918px;
+}
+.Dashboard_Dashboard .__3 {
+	position: absolute;
+	left: 1272px;
+	top: 39px;
+	width: 84px;
+	height: 58px;
+	display: flex;
+	justify-content: flex-end;
+	text-align: right;
+	color: rgba(0,145,124,1.00);
+	font-family: Tajawal;
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 18px;
+}
+.Dashboard_Dashboard .__4 {
+	position: absolute;
+	left: 643px;
+	top: 50px;
+	width: 111px;
+	height: 24px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(0,145,124,1.00);
+	font-family: Tajawal;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 28.80000114440918px;
+}
+.Dashboard_Dashboard .__5 {
+	position: absolute;
+	left: 423px;
+	top: 50px;
+	width: 193px;
+	height: 24px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(0,145,124,1.00);
+	font-family: Tajawal;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 28.80000114440918px;
+}
+.Dashboard_Dashboard .PersonCircle {
+	position: absolute;
+	left: 1361px;
+	top: 31px;
+	width: 50px;
+	height: 50px;
+	background: rgba(0,145,124,0.00);
+}
+.Dashboard_Dashboard .PersonCircle .Vector_2 {
+	position: absolute;
+	left: 15.625px;
+	top: 9.375px;
+	width: 37.5%;
+	height: 37.5%;
+}
+.Dashboard_Dashboard .PersonCircle .Vector_3 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+}
+.Dashboard_Dashboard .SidebarMenu {
+	position: absolute;
+	left: 249px;
+	top: 0px;
+	width: 1px;
+	height: 1184px;
+}
+.Dashboard_Dashboard .SidebarMenu .Rectangle55 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 1px;
+	height: 1184px;
+	background: rgba(230,239,245,1.00);
+}
+.Dashboard_Dashboard .ExpenseStats {
+	position: absolute;
+	left: 496px;
+	top: 473px;
+	width: 275px;
+	height: 282.8571472167969px;
+}
+.Dashboard_Dashboard .ExpenseStats .__6 {
+	position: absolute;
+	left: 57px;
+	top: 0px;
+	width: 213px;
+	height: 21px;
+	display: flex;
+	justify-content: flex-end;
+	text-align: right;
+	color: rgba(255,255,255,1.00);
+	font-family: Inter;
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 26.625px;
+}
+.Dashboard_Dashboard .ExpenseStats .Group399 {
+	position: absolute;
+	left: 0px;
+	top: 29.85714340209961px;
+	width: 275px;
+	height: 253px;
+}
+.Dashboard_Dashboard .ExpenseStats .Group399 .Rectangle184 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 275px;
+	height: 253px;
+	background: rgba(255,255,255,1.00);
+	border-radius: 25px;
+}
+.Dashboard_Dashboard .ExpenseStats .Group399 .Group {
+	position: absolute;
+	left: 32.2142333984375px;
+	top: 24.357141494750977px;
+	width: 76.89399857954545%;
+	height: 80.64226595309411%;
+}
+.Dashboard_Dashboard .ExpenseStats .Group399 .Group .Vector_4 {
+	position: absolute;
+	left: 97.428466796875px;
+	top: 22.10915184020996px;
+	width: 53.925442685542876%;
+	height: 39.52009344417439%;
+}
+.Dashboard_Dashboard .ExpenseStats .Group399 .Group .Vector_5 {
+	position: absolute;
+	left: 15.7142333984375px;
+	top: -0.000011444091796875px;
+	width: 69.03108381613006%;
+	height: 49.76291562217812%;
+}
+.Dashboard_Dashboard .ExpenseStats .Group399 .Group .Vector_6 {
+	position: absolute;
+	left: 91.928466796875px;
+	top: 109.99997901916504px;
+	width: 44.464965871331685%;
+	height: 46.08502085636518%;
+}
+.Dashboard_Dashboard .ExpenseStats .Group399 .Group .Vector_7 {
+	position: absolute;
+	left: -0.0001220703125px;
+	top: 46.357133865356445px;
+	width: 40.316282613313874%;
+	height: 72.9897095036728%;
+}
+.Dashboard_Dashboard .ExpenseStats .Group399 ._30 {
+	position: absolute;
+	left: 81.7142333984375px;
+	top: 50.28571319580078px;
+	width: 78.70841979980469px;
+	height: 31.837116241455078px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(255,255,255,1.00);
+	font-family: Inter;
+	font-size: 13px;
+	font-weight: 500;
+	line-height: 18px;
+}
+.Dashboard_Dashboard .ExpenseStats .Group399 ._20 {
+	position: absolute;
+	left: 44px;
+	top: 128.85715103149414px;
+	width: 61.90549850463867px;
+	height: 31.837116241455078px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(255,255,255,1.00);
+	font-family: Inter;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 18px;
+}
+.Dashboard_Dashboard .ExpenseStats .Group399 ._15 {
+	position: absolute;
+	left: 156.357177734375px;
+	top: 89.80008316040039px;
+	width: 66.32731628417969px;
+	height: 31.837116241455078px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(255,255,255,1.00);
+	font-family: Inter;
+	font-size: 13px;
+	font-weight: 500;
+	line-height: 18px;
+}
+.Dashboard_Dashboard .ExpenseStats .Group399 ._35 {
+	position: absolute;
+	left: 152.4285888671875px;
+	top: 152.4285774230957px;
+	width: 38.02766418457031px;
+	height: 31.837116241455078px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(255,255,255,1.00);
+	font-family: Inter;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 18px;
+}
+.Dashboard_Dashboard .RecentTransaction {
+	position: absolute;
+	left: 404px;
+	top: 178px;
+	width: 368.5087585449219px;
+	height: 284px;
+}
+.Dashboard_Dashboard .RecentTransaction .Rectangle182 {
+	position: absolute;
+	left: 0px;
+	top: 36.572662353515625px;
+	width: 368.5087585449219px;
+	height: 247.4273223876953px;
+	background: rgba(255,255,255,1.00);
+	border-radius: 25px;
+}
+.Dashboard_Dashboard .RecentTransaction .Group20 {
+	position: absolute;
+	left: 102.129638671875px;
+	top: 137.64935302734375px;
+	width: 141.08621215820312px;
+	height: 46.32681655883789px;
+}
+.Dashboard_Dashboard .RecentTransaction .Group20 .__7 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 141.08621215820312px;
+	height: 20.004762649536133px;
+	color: rgba(1,166,107,1.00);
+	font-family: Inter;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 19.363636016845703px;
+}
+.Dashboard_Dashboard .RecentTransaction .Group20 ._25January2024 {
+	position: absolute;
+	left: 0px;
+	top: 27.37493896484375px;
+	width: 127.39875030517578px;
+	height: 18.951879501342773px;
+	color: rgba(113,142,191,1.00);
+	font-family: Inter;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 18.15340805053711px;
+}
+.Dashboard_Dashboard .RecentTransaction ._2500 {
+	position: absolute;
+	left: 285.3309326171875px;
+	top: 150.283935546875px;
+	width: 57.90851974487305px;
+	height: 20.004762649536133px;
+	display: flex;
+	justify-content: flex-end;
+	text-align: right;
+	color: rgba(65,212,168,1.00);
+	font-family: Inter;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 19.363636016845703px;
+}
+.Dashboard_Dashboard .RecentTransaction .Group314 {
+	position: absolute;
+	left: 26.322021484375px;
+	top: 131.33206176757812px;
+	width: 57.90851974487305px;
+	height: 57.90851974487305px;
+}
+.Dashboard_Dashboard .RecentTransaction .Group314 .Ellipse10 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 57.90851974487305px;
+	height: 57.90851974487305px;
+	background: rgba(128,211,181,1.00);
+	border-radius: 50%;
+}
+.Dashboard_Dashboard .RecentTransaction .Group314 .Vector_8 {
+	position: absolute;
+	left: 10.5286865234375px;
+	top: 14.7403564453125px;
+	width: 65.45454653249251%;
+	height: 49.1085659237182%;
+}
+.Dashboard_Dashboard .RecentTransaction .Group20_1 {
+	position: absolute;
+	left: 102.129638671875px;
+	top: 69.21200561523438px;
+	width: 127.39875030517578px;
+	height: 46.32681655883789px;
+}
+.Dashboard_Dashboard .RecentTransaction .Group20_1 .__8 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 112.65840148925781px;
+	height: 20.004762649536133px;
+	color: rgba(1,166,107,1.00);
+	font-family: Inter;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 19.363636016845703px;
+}
+.Dashboard_Dashboard .RecentTransaction .Group20_1 ._28January2024 {
+	position: absolute;
+	left: 0px;
+	top: 27.374954223632812px;
+	width: 127.39875030517578px;
+	height: 18.951879501342773px;
+	color: rgba(113,142,191,1.00);
+	font-family: Inter;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 18.15340805053711px;
+}
+.Dashboard_Dashboard .RecentTransaction ._850 {
+	position: absolute;
+	left: 303.22998046875px;
+	top: 81.84661865234375px;
+	width: 40.009525299072266px;
+	height: 20.004762649536133px;
+	display: flex;
+	justify-content: flex-end;
+	text-align: right;
+	color: rgba(255,75,74,1.00);
+	font-family: Inter;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 19.363636016845703px;
+}
+.Dashboard_Dashboard .RecentTransaction .Group313 {
+	position: absolute;
+	left: 26.322021484375px;
+	top: 62.89471435546875px;
+	width: 57.90851974487305px;
+	height: 57.90851974487305px;
+}
+.Dashboard_Dashboard .RecentTransaction .Group313 .Ellipse10_1 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 57.90851974487305px;
+	height: 57.90851974487305px;
+	background: rgba(255,187,187,1.00);
+	border-radius: 50%;
+}
+.Dashboard_Dashboard .RecentTransaction .Group313 .Vector_9 {
+	position: absolute;
+	left: 12.6346435546875px;
+	top: 13.687469482421875px;
+	width: 57.95401179589089%;
+	height: 54.0909079231331%;
+}
+.Dashboard_Dashboard .RecentTransaction .Group20_2 {
+	position: absolute;
+	left: 102.129638671875px;
+	top: 206.0867156982422px;
+	width: 130.55740356445312px;
+	height: 46.32681655883789px;
+}
+.Dashboard_Dashboard .RecentTransaction .Group20_2 .__9 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 130.55740356445312px;
+	height: 20.004762649536133px;
+	color: rgba(1,166,107,1.00);
+	font-family: Inter;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 19.363636016845703px;
+}
+.Dashboard_Dashboard .RecentTransaction .Group20_2 ._21January2024 {
+	position: absolute;
+	left: 0px;
+	top: 27.37494659423828px;
+	width: 125.29297637939453px;
+	height: 18.951879501342773px;
+	color: rgba(113,142,191,1.00);
+	font-family: Inter;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 18.15340805053711px;
+}
+.Dashboard_Dashboard .RecentTransaction ._5400 {
+	position: absolute;
+	left: 284.278076171875px;
+	top: 218.7213134765625px;
+	width: 58.96140670776367px;
+	height: 20.004762649536133px;
+	display: flex;
+	justify-content: flex-end;
+	text-align: right;
+	color: rgba(65,212,168,1.00);
+	font-family: Inter;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 19.363636016845703px;
+}
+.Dashboard_Dashboard .RecentTransaction .Group315 {
+	position: absolute;
+	left: 26.322021484375px;
+	top: 199.76942443847656px;
+	width: 57.90851974487305px;
+	height: 57.90851974487305px;
+}
+.Dashboard_Dashboard .RecentTransaction .Group315 .Ellipse10_2 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 57.90851974487305px;
+	height: 57.90851974487305px;
+	background: rgba(128,211,181,1.00);
+	border-radius: 50%;
+}
+.Dashboard_Dashboard .RecentTransaction .Group315 .Vector_10 {
+	position: absolute;
+	left: 13.6873779296875px;
+	top: 13.687469482421875px;
+	width: 52.72727524248254%;
+	height: 52.72727524248254%;
+}
+.Dashboard_Dashboard .RecentTransaction .__10 {
+	position: absolute;
+	left: 237.68310546875px;
+	top: 0px;
+	width: 130.8256072998047px;
+	height: 28.96139144897461px;
+	display: flex;
+	justify-content: flex-end;
+	text-align: right;
+	color: rgba(255,255,255,1.00);
+	font-family: Inter;
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 29.045454025268555px;
+}
+.Dashboard_Dashboard .__11 {
+	position: absolute;
+	left: 981px;
+	top: 143px;
+	width: 428px;
+	height: 48px;
+	display: flex;
+	justify-content: flex-end;
+	text-align: right;
+	color: rgba(255,255,255,1.00);
+	font-family: Inter;
+	font-size: 40px;
+	font-weight: 600;
+	line-height: 48.409088134765625px;
+}
+.Dashboard_Dashboard .Frame17 {
+	position: absolute;
+	left: 36.49305555555556%;
+	top: 808px;
+	transform: translate(-50%, 0);
+	width: 495px;
+	height: 155px;
+	background: rgba(243,243,245,1.00);
+	border-radius: 20px;
+}
+.Dashboard_Dashboard .Frame17 .Group400 {
+	position: absolute;
+	left: 15px;
+	top: 30px;
+	width: 466.06121826171875px;
+	height: 96px;
+}
+.Dashboard_Dashboard .Frame17 .Group400 .badge1removebgpreview11 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 109.06122589111328px;
+	height: 96px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.Dashboard_Dashboard .Frame17 .Group400 .badge1removebgpreview12 {
+	position: absolute;
+	left: 118.857177734375px;
+	top: 0px;
+	width: 109.06122589111328px;
+	height: 96px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.Dashboard_Dashboard .Frame17 .Group400 .badge1removebgpreview13 {
+	position: absolute;
+	left: 237.7142333984375px;
+	top: 0px;
+	width: 109.06122589111328px;
+	height: 96px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.Dashboard_Dashboard .Frame17 .Group400 .badge1removebgpreview14 {
+	position: absolute;
+	left: 357px;
+	top: 0px;
+	width: 109.06122589111328px;
+	height: 96px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.Dashboard_Dashboard .__12 {
+	position: absolute;
+	left: 621px;
+	top: 749px;
+	width: 141px;
+	height: 61px;
+	display: flex;
+	justify-content: flex-end;
+	text-align: right;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Inter;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 43.568180084228516px;
+}
+.Dashboard_Dashboard .Leaderboard {
+	position: absolute;
+	left: 1019px;
+	top: 229px;
+	width: 390px;
+	height: 728px;
+	background: rgba(255,255,255,1.00);
+	border-radius: 12px;
+}
+.Dashboard_Dashboard .Leaderboard .Group1335 {
+	position: absolute;
+	left: 26.0382080078125px;
+	top: 119px;
+	width: 335.083984375px;
+	height: 252.73281860351562px;
+}
+.Dashboard_Dashboard .Leaderboard .Group1335 .__13 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 335.083984375px;
+	height: 41.17557144165039px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	color: rgba(0,145,124,1.00);
+	font-family: Inter;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 29.045454025268555px;
+}
+.Dashboard_Dashboard .Leaderboard .Group1335 .Group1336 {
+	position: absolute;
+	left: 115.0076904296875px;
+	top: 62.47328186035156px;
+	width: 106.48856353759766px;
+	height: 107.41929626464844px;
+}
+.Dashboard_Dashboard .Leaderboard .Group1335 .Group1336 .Ellipse1 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 96.54962158203125px;
+	height: 89.45037841796875px;
+	object-fit: cover;
+	overflow: hidden;
+	border-radius: 50%;
+	border: 1px solid rgba(0,0,0,1);
+	box-sizing: border-box;
+	background-size: cover;
+}
+.Dashboard_Dashboard .Leaderboard .Group1335 .Group1336 .Group5 {
+	position: absolute;
+	left: 63.413330078125px;
+	top: 64.34410858154297px;
+	width: 43.07518768310547px;
+	height: 43.07518768310547px;
+}
+.Dashboard_Dashboard .Leaderboard .Group1335 .Group1336 .Group5 .Ellipse2 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 43.07518768310547px;
+	height: 43.07518768310547px;
+	background: rgba(95,65,178,1.00);
+	border-radius: 50%;
+}
+.Dashboard_Dashboard .Leaderboard .Group1335 .Group1336 .Group5 .LaurelWreath {
+	position: absolute;
+	left: 6.852783203125px;
+	top: 7.342367172241211px;
+	width: 28.39694595336914px;
+	height: 28.39694595336914px;
+}
+.Dashboard_Dashboard .Leaderboard .Group1335 .Group1336 .Group5 .LaurelWreath .Vector_11 {
+	position: absolute;
+	left: 16.565185546875px;
+	top: 2.366323471069336px;
+	width: 16.863465428744874%;
+	height: 14.404690755309346%;
+}
+.Dashboard_Dashboard .Leaderboard .Group1335 .Group1336 .Group5 .LaurelWreath .Vector_12 {
+	position: absolute;
+	left: 22.23095703125px;
+	top: 4.77165412902832px;
+	width: 12.277040380629517%;
+	height: 18.730490393115932%;
+}
+.Dashboard_Dashboard .Leaderboard .Group1335 .Group1336 .Group5 .LaurelWreath .Vector_13 {
+	position: absolute;
+	left: 18.23388671875px;
+	top: 7.096220016479492px;
+	width: 19.139857140343164%;
+	height: 11.912768137242852%;
+}
+.Dashboard_Dashboard .Leaderboard .Group1335 .Group1336 .Group5 .LaurelWreath .Vector_14 {
+	position: absolute;
+	left: 23.00341796875px;
+	top: 10.927270889282227px;
+	width: 15.691423087499356%;
+	height: 15.72239396922847%;
+}
+.Dashboard_Dashboard .Leaderboard .Group1335 .Group1336 .Group5 .LaurelWreath .Vector_15 {
+	position: absolute;
+	left: 19.578857421875px;
+	top: 11.18950080871582px;
+	width: 16.497535830106276%;
+	height: 14.854932215345626%;
+}
+.Dashboard_Dashboard .Leaderboard .Group1335 .Group1336 .Group5 .LaurelWreath .Vector_16 {
+	position: absolute;
+	left: 21.21826171875px;
+	top: 17.132566452026367px;
+	width: 19.17194300068148%;
+	height: 11.885209358727442%;
+}
+.Dashboard_Dashboard .Leaderboard .Group1335 .Group1336 .Group5 .LaurelWreath .Vector_17 {
+	position: absolute;
+	left: 19.191650390625px;
+	top: 14.777265548706055px;
+	width: 12.23772563036256%;
+	height: 18.77343721978606%;
+}
+.Dashboard_Dashboard .Leaderboard .Group1335 .Group1336 .Group5 .LaurelWreath .Vector_18 {
+	position: absolute;
+	left: 17.099609375px;
+	top: 21.249618530273438px;
+	width: 19.84840925464486%;
+	height: 11.358661550123864%;
+}
+.Dashboard_Dashboard .Leaderboard .Group1335 .Group1336 .Group5 .LaurelWreath .Vector_19 {
+	position: absolute;
+	left: 16.026123046875px;
+	top: 17.636354446411133px;
+	width: 11.339554947556376%;
+	height: 19.878696708220442%;
+}
+.Dashboard_Dashboard .Leaderboard .Group1335 .Group1336 .Group5 .LaurelWreath .Vector_20 {
+	position: absolute;
+	left: 3.845458984375px;
+	top: 3.5617847442626953px;
+	width: 72.91665911033573%;
+	height: 78.94884115437094%;
+}
+.Dashboard_Dashboard .Leaderboard .Group1335 .Group1336 .Group5 .LaurelWreath .Vector_21 {
+	position: absolute;
+	left: 7.043212890625px;
+	top: 2.366323471069336px;
+	width: 16.863064103612945%;
+	height: 14.404692434493999%;
+}
+.Dashboard_Dashboard .Leaderboard .Group1335 .Group1336 .Group5 .LaurelWreath .Vector_22 {
+	position: absolute;
+	left: 2.679931640625px;
+	top: 4.770524978637695px;
+	width: 12.279678379718458%;
+	height: 18.734659808607876%;
+}
+.Dashboard_Dashboard .Leaderboard .Group1335 .Group1336 .Group5 .LaurelWreath .Vector_23 {
+	position: absolute;
+	left: 4.7275390625px;
+	top: 7.096220016479492px;
+	width: 19.137680917033638%;
+	height: 11.912768137242852%;
+}
+.Dashboard_Dashboard .Leaderboard .Group1335 .Group1336 .Group5 .LaurelWreath .Vector_24 {
+	position: absolute;
+	left: 0.9365234375px;
+	top: 10.927038192749023px;
+	width: 15.695589144621994%;
+	height: 15.723233561554679%;
+}
+.Dashboard_Dashboard .Leaderboard .Group1335 .Group1336 .Group5 .LaurelWreath .Vector_25 {
+	position: absolute;
+	left: 4.132080078125px;
+	top: 11.18950080871582px;
+	width: 16.49753247173697%;
+	height: 14.854932215345626%;
+}
+.Dashboard_Dashboard .Leaderboard .Group1335 .Group1336 .Group5 .LaurelWreath .Vector_26 {
+	position: absolute;
+	left: 1.734130859375px;
+	top: 17.133756637573242px;
+	width: 19.173712861305123%;
+	height: 11.885213556689072%;
+}
+.Dashboard_Dashboard .Leaderboard .Group1335 .Group1336 .Group5 .LaurelWreath .Vector_27 {
+	position: absolute;
+	left: 5.732666015625px;
+	top: 14.777265548706055px;
+	width: 12.23460906364768%;
+	height: 18.77343721978606%;
+}
+.Dashboard_Dashboard .Leaderboard .Group1335 .Group1336 .Group5 .LaurelWreath .Vector_28 {
+	position: absolute;
+	left: 5.66162109375px;
+	top: 21.249618530273438px;
+	width: 19.850069968266094%;
+	height: 11.358661550123864%;
+}
+.Dashboard_Dashboard .Leaderboard .Group1335 .Group1336 .Group5 .LaurelWreath .Vector_29 {
+	position: absolute;
+	left: 9.150634765625px;
+	top: 17.637075424194336px;
+	width: 11.339544872448462%;
+	height: 19.881772974503665%;
+}
+.Dashboard_Dashboard .Leaderboard .Group1335 .SarahMartins {
+	position: absolute;
+	left: 93.7098388671875px;
+	top: 170.38168334960938px;
+	width: 151.9236602783203px;
+	height: 31.23664093017578px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: ABeeZee;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 22.399999618530273px;
+}
+.Dashboard_Dashboard .Leaderboard .Group1335 ._50000 {
+	position: absolute;
+	left: 126.3663330078125px;
+	top: 222.91603088378906px;
+	width: 85.19084167480469px;
+	height: 29.81679344177246px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	color: rgba(0,145,124,1.00);
+	font-family: ABeeZee;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 21.2760009765625px;
+}
+.Dashboard_Dashboard .Leaderboard .Group1338 {
+	position: absolute;
+	left: 9px;
+	top: 418.5877990722656px;
+	width: 372px;
+	height: 76.6717529296875px;
+}
+.Dashboard_Dashboard .Leaderboard .Group1338 .Rectangle737 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 372px;
+	height: 76.6717529296875px;
+	background: linear-gradient(90deg, rgba(255, 187, 56, 1.00) 0.0%, rgba(146, 105, 0, 1.00) 100.0%);
+	border-radius: 44px;
+}
+.Dashboard_Dashboard .Leaderboard .Group1338 .Group1337 {
+	position: absolute;
+	left: 21.2977294921875px;
+	top: 15.618316650390625px;
+	width: 335.083984375px;
+	height: 45.435115814208984px;
+}
+.Dashboard_Dashboard .Leaderboard .Group1338 .Group1337 ._2nd {
+	position: absolute;
+	left: 0px;
+	top: 12.77862548828125px;
+	width: 35.49618148803711px;
+	height: 19.87786293029785px;
+	display: flex;
+	align-items: center;
+	color: rgba(255,255,255,1.00);
+	font-family: Inter;
+	font-size: 12px;
+	font-weight: 700;
+	font-style: italic;
+	line-height: 14.522727012634277px;
+}
+.Dashboard_Dashboard .Leaderboard .Group1338 .Group1337 .__14 {
+	position: absolute;
+	left: 113.5877685546875px;
+	top: 8.519088745117188px;
+	width: 32.656490325927734px;
+	height: 28.39694595336914px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: ABeeZee;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 19.600000381469727px;
+}
+.Dashboard_Dashboard .Leaderboard .Group1338 .Group1337 ._5756 {
+	position: absolute;
+	left: 279.7098388671875px;
+	top: 9.938934326171875px;
+	width: 55.374046325683594px;
+	height: 26.97709846496582px;
+	display: flex;
+	align-items: center;
+	color: rgba(255,255,255,1.00);
+	font-family: Inter;
+	font-size: 16px;
+	font-weight: 700;
+	font-style: italic;
+	line-height: 19.363636016845703px;
+}
+.Dashboard_Dashboard .Leaderboard .Group1338 .Group1337 .Ellipse23 {
+	position: absolute;
+	left: 52.5343017578125px;
+	top: 0px;
+	width: 45.435115814208984px;
+	height: 45.435115814208984px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.Dashboard_Dashboard .Leaderboard .Group1339 {
+	position: absolute;
+	left: 9px;
+	top: 515.1373901367188px;
+	width: 372px;
+	height: 76.6717529296875px;
+}
+.Dashboard_Dashboard .Leaderboard .Group1339 .Rectangle737_1 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 372px;
+	height: 76.6717529296875px;
+	background: linear-gradient(90deg, rgba(255, 187, 56, 1.00) 0.0%, rgba(146, 105, 0, 1.00) 100.0%);
+	border-radius: 44px;
+}
+.Dashboard_Dashboard .Leaderboard .Group1339 .Group1337_1 {
+	position: absolute;
+	left: 21.2977294921875px;
+	top: 15.618316650390625px;
+	width: 335.083984375px;
+	height: 45.435115814208984px;
+}
+.Dashboard_Dashboard .Leaderboard .Group1339 .Group1337_1 ._3rd {
+	position: absolute;
+	left: 0px;
+	top: 12.77862548828125px;
+	width: 34.07633590698242px;
+	height: 19.87786293029785px;
+	display: flex;
+	align-items: center;
+	color: rgba(255,255,255,1.00);
+	font-family: Inter;
+	font-size: 12px;
+	font-weight: 700;
+	font-style: italic;
+	line-height: 14.522727012634277px;
+}
+.Dashboard_Dashboard .Leaderboard .Group1339 .Group1337_1 .Neha {
+	position: absolute;
+	left: 113.5877685546875px;
+	top: 8.519088745117188px;
+	width: 49.69465637207031px;
+	height: 28.39694595336914px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: ABeeZee;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 19.600000381469727px;
+}
+.Dashboard_Dashboard .Leaderboard .Group1339 .Group1337_1 ._2300 {
+	position: absolute;
+	left: 279.7098388671875px;
+	top: 9.938934326171875px;
+	width: 55.374046325683594px;
+	height: 26.97709846496582px;
+	display: flex;
+	align-items: center;
+	color: rgba(255,255,255,1.00);
+	font-family: Inter;
+	font-size: 16px;
+	font-weight: 700;
+	font-style: italic;
+	line-height: 19.363636016845703px;
+}
+.Dashboard_Dashboard .Leaderboard .Group1339 .Group1337_1 .Ellipse23_1 {
+	position: absolute;
+	left: 52.5343017578125px;
+	top: 0px;
+	width: 45.435115814208984px;
+	height: 45.435115814208984px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.Dashboard_Dashboard .Leaderboard .Group1340 {
+	position: absolute;
+	left: 9px;
+	top: 611.68701171875px;
+	width: 372px;
+	height: 76.6717529296875px;
+}
+.Dashboard_Dashboard .Leaderboard .Group1340 .Rectangle737_2 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 372px;
+	height: 76.6717529296875px;
+	background: linear-gradient(90deg, rgba(255, 187, 56, 1.00) 0.0%, rgba(146, 105, 0, 1.00) 100.0%);
+	border-radius: 44px;
+}
+.Dashboard_Dashboard .Leaderboard .Group1340 .Group1337_2 {
+	position: absolute;
+	left: 21.2977294921875px;
+	top: 15.618316650390625px;
+	width: 335.083984375px;
+	height: 45.435115814208984px;
+}
+.Dashboard_Dashboard .Leaderboard .Group1340 .Group1337_2 ._4th {
+	position: absolute;
+	left: 0px;
+	top: 12.778594970703125px;
+	width: 32.656490325927734px;
+	height: 19.87786293029785px;
+	display: flex;
+	align-items: center;
+	color: rgba(255,255,255,1.00);
+	font-family: Inter;
+	font-size: 12px;
+	font-weight: 700;
+	font-style: italic;
+	line-height: 14.522727012634277px;
+}
+.Dashboard_Dashboard .Leaderboard .Group1340 .Group1337_2 .Anjali {
+	position: absolute;
+	left: 113.5877685546875px;
+	top: 8.519073486328125px;
+	width: 55.374046325683594px;
+	height: 28.39694595336914px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: ABeeZee;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 19.600000381469727px;
+}
+.Dashboard_Dashboard .Leaderboard .Group1340 .Group1337_2 ._2300_1 {
+	position: absolute;
+	left: 279.7098388671875px;
+	top: 9.93890380859375px;
+	width: 55.374046325683594px;
+	height: 26.97709846496582px;
+	display: flex;
+	align-items: center;
+	color: rgba(255,255,255,1.00);
+	font-family: Inter;
+	font-size: 16px;
+	font-weight: 700;
+	font-style: italic;
+	line-height: 19.363636016845703px;
+}
+.Dashboard_Dashboard .Leaderboard .Group1340 .Group1337_2 .Ellipse23_2 {
+	position: absolute;
+	left: 52.5343017578125px;
+	top: -0.000030517578125px;
+	width: 45.435115814208984px;
+	height: 45.435115814208984px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.Dashboard_Dashboard .Leaderboard .MyCards {
+	position: absolute;
+	left: 26px;
+	top: 20px;
+	width: 337.19512939453125px;
+	height: 79px;
+}
+.Dashboard_Dashboard .Leaderboard .MyCards .Rectangle22 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 337.19512939453125px;
+	height: 79px;
+	background: linear-gradient(90deg, rgba(1, 166, 107, 1.00) 0.0%, rgba(115, 216, 144, 1.00) 100.0%);
+	border-radius: 25px;
+}
+.Dashboard_Dashboard .Leaderboard .MyCards .__15 {
+	position: absolute;
+	left: 205.836181640625px;
+	top: 29.628021240234375px;
+	width: 96.34146118164062px;
+	height: 37.57316970825195px;
+	display: flex;
+	justify-content: flex-end;
+	text-align: right;
+	color: rgba(255,255,255,1.00);
+	font-family: Inter;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 19.363636016845703px;
+}
+.Dashboard_Dashboard .Leaderboard .MyCards ._5756_1 {
+	position: absolute;
+	left: 93.11669921875px;
+	top: 25.39544677734375px;
+	width: 105.97561645507812px;
+	height: 44.317073822021484px;
+	display: flex;
+	justify-content: flex-end;
+	text-align: right;
+	color: rgba(255,255,255,1.00);
+	font-family: Lato;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 24px;
+}
+.Dashboard_Dashboard .Leaderboard .MyCards .Asset11 {
+	position: absolute;
+	left: 12.5244140625px;
+	top: 12.697723388671875px;
+	width: 57.80487823486328px;
+	height: 52.98780822753906px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.Dashboard_Dashboard .Group25 {
+	position: absolute;
+	left: 0px;
+	top: 107px;
+	width: 218px;
+	height: 173px;
+}
+.Dashboard_Dashboard .Group25 .settingssolid1 {
+	position: absolute;
+	left: 41px;
+	top: 148px;
+	width: 25px;
+	height: 25px;
+}
+.Dashboard_Dashboard .Group25 .settingssolid1 .Vector_30 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100.00019073486328%;
+	height: 100%;
+}
+.Dashboard_Dashboard .Group25 .transfer1 {
+	position: absolute;
+	left: 44px;
+	top: 79px;
+	width: 25px;
+	height: 25px;
+}
+.Dashboard_Dashboard .Group25 .transfer1 ._17transfer {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 99.99974822998047%;
+	height: 100%;
+}
+.Dashboard_Dashboard .Group25 .transfer1 ._17transfer .Glyph {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+}
+.Dashboard_Dashboard .Group25 .transfer1 ._17transfer .Glyph .Vector_31 {
+	position: absolute;
+	left: 5.208251953125px;
+	top: 22.005218505859375px;
+	width: 58.33348274268574%;
+	height: 11.979171752929688%;
+}
+.Dashboard_Dashboard .Group25 .transfer1 ._17transfer .Glyph .Vector_32 {
+	position: absolute;
+	left: 5.208251953125px;
+	top: 0px;
+	width: 58.33348274268574%;
+	height: 12.5%;
+}
+.Dashboard_Dashboard .Group25 .transfer1 ._17transfer .Glyph .Vector_33 {
+	position: absolute;
+	left: 19.7916259765625px;
+	top: 3.4453125px;
+	width: 20.83325862865713%;
+	height: 30.893760681152344%;
+}
+.Dashboard_Dashboard .Group25 .transfer1 ._17transfer .Glyph .Vector_34 {
+	position: absolute;
+	left: 5.208251953125px;
+	top: 4.166656494140625px;
+	width: 58.33348274268574%;
+	height: 66.66667938232422%;
+}
+.Dashboard_Dashboard .Group25 .transfer1 ._17transfer .Glyph .Vector_35 {
+	position: absolute;
+	left: 0px;
+	top: 13.83123779296875px;
+	width: 20.833256721303695%;
+	height: 30.893745422363285%;
+}
+.Dashboard_Dashboard .Group25 .__16 {
+	position: absolute;
+	left: 95px;
+	top: 81px;
+	width: 70px;
+	height: 22px;
+	color: rgba(0,0,0,1.00);
+	font-family: Inter;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 21.784090042114258px;
+}
+.Dashboard_Dashboard .Group25 .__17 {
+	position: absolute;
+	left: 95px;
+	top: 149px;
+	width: 75px;
+	height: 22px;
+	color: rgba(0,0,0,1.00);
+	font-family: Inter;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 21.784090042114258px;
+}
+.Dashboard_Dashboard .Group25 .Group24 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 218px;
+	height: 60px;
+}
+.Dashboard_Dashboard .Group25 .Group24 .home2 {
+	position: absolute;
+	left: 44px;
+	top: 15px;
+	width: 25px;
+	height: 25px;
+}
+.Dashboard_Dashboard .Group25 .Group24 .home2 .Vector_36 {
+	position: absolute;
+	left: -0.00054931640625px;
+	top: 0px;
+	width: 99.98979187011719%;
+	height: 100%;
+}
+.Dashboard_Dashboard .Group25 .Group24 .__18 {
+	position: absolute;
+	left: 95px;
+	top: 17px;
+	width: 123px;
+	height: 22px;
+	color: rgba(0,145,124,1.00);
+	font-family: Inter;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 21.784090042114258px;
+}
+.Dashboard_Dashboard .Group25 .Group24 .Rectangle17 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 6px;
+	height: 60px;
+	background: rgba(0,145,124,1.00);
+}
