@@ -10,7 +10,7 @@ const userSchema = new Schema({
     required: true
   },
   phoneNumber: {
-    type: String,
+    type: Number,
     required: true,
     unique: true
   },
