@@ -38,7 +38,7 @@ const userSchema = new Schema({
 userSchema.statics.signup = async function(fullName, phoneNumber, country, city, email, password) { 
 
   // validation
-  if (!email || !password) {
+  if (!fullName || !phoneNumber || !country || !city || !email || !password) {
     throw Error('All fields must be filled')
   }
   if (!validator.isEmail(email)) { 
@@ -78,6 +78,22 @@ userSchema.statics.login = async function(email, password) {
   const match = await bcrypt.compare(password, user.password) // true or false
   if (!match) {
     throw Error('Incorrect password')
+  }
+
+  return user
+}
+
+
+// static recovery method
+userSchema.statics.recovery  = async function(email) {
+
+  if (!email) {
+    throw Error('The field must be filled out')
+  }
+
+  const user = await this.findOne({ email }) // find user
+  if (!user) {
+    throw Error('Incorrect email')
   }
 
   return user
