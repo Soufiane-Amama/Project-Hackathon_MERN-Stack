@@ -17,15 +17,9 @@ const transactionSchema = new Schema({
         type: Number, 
         required: true 
     },
-    transactionDate: { 
-        type: Date, 
-        default: Date.now 
-    },
-    paymentMethod: { 
-        type: String 
-    },
-    status: { type: String, 
-        enum: ['processing', 'Accepted', 'Rejected'], 
+    status: { 
+        type: String, 
+        enum: ['تمت', 'على الطريق', 'ألغيت', 'معلقة'], 
         required: true 
     }
 }, { timestamps: true });
