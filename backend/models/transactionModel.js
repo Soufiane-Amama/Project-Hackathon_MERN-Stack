@@ -5,7 +5,8 @@ const Schema = mongoose.Schema
 
 const transactionSchema = new Schema({
     userId: { 
-        type: String, 
+        type: Schema.Types.ObjectId, // نوع الحقل ObjectId لربطه بمعرف المستخدم في مجموعة مستندات المستخدمين
+        ref: 'User',
         required: true 
     },
     transactionType: { 
@@ -22,10 +23,10 @@ const transactionSchema = new Schema({
         enum: ['تمت', 'على الطريق', 'ألغيت', 'معلقة'], 
         required: true 
     }
-}, { timestamps: true });
+}, { timestamps: true }); // هذه يضيف حقلين createdAt و updatedAt إلى كل وثيقة للمعاملة
 
-// إنشاء النموذج Model
+
+
 const Transaction = mongoose.model('Transaction', transactionSchema);
-
 
 module.exports = Transaction;

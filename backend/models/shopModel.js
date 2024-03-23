@@ -11,11 +11,15 @@ const shopSchema = new Schema({
       type: String,
       required: true
     },
+    description: {
+      type: String,
+      required: true
+    },
     points: {
       type: Number,
       required: true
     },
-    coupons: {
+    coupon: {
       type: Number,
       required: true
     }
