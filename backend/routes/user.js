@@ -1,7 +1,7 @@
 const express = require('express')
 
 // controller functions
-const { loginUser, signupUser, accountRecovery, confirmationCode } = require('../controllers/userController')
+const { loginUser, signupUser, accountRecovery, confirmationCode, getUsers, deleteUser } = require('../controllers/userController')
 
 // express router 
 const router = express.Router()
@@ -17,6 +17,13 @@ router.post('/recovery', accountRecovery)
 
 // confirmation code route
 router.post('/confirmation', confirmationCode)
+
+// Get all users 
+router.get('/', getUsers)
+
+// delete a user
+router.delete('/', deleteUser)
+
 
 
 module.exports = router

@@ -1,9 +1,10 @@
 const User = require('../models/userModel')
 const jwt = require('jsonwebtoken')
+const mongoose = require('mongoose');
 const { createTransporter, createMailOptions } = require('../helpers/email');
 
 const createToken = (_id) => { 
-  return jwt.sign({_id}, process.env.SECRET, { expiresIn: '3d' })
+  return jwt.sign({_id}, process.env.SECRET, { expiresIn: '3d' }) 
 }
 
 
@@ -31,12 +32,20 @@ const loginUser = async (req, res) => {
     // create a token
     const token = createToken(user._id)
 
-    res.status(200).json({ _id: user._id, fullName: user.fullName, phoneNumber: user.phoneNumber, country: user.country, city: user.city, points: user.points, email , token })
+    res.status(200).json({ 
+      _id: user._id, 
+      fullName: user.fullName, 
+      phoneNumber: user.phoneNumber, 
+      country: user.country, 
+      city: user.city, 
+      points: user.points, 
+      email, 
+      token
+    })
   } catch (error) {
     res.status(400).json({error: error.message})
   }
 }
-
 
 
 // signup a user
@@ -137,5 +146,29 @@ const confirmationCode = (req, res) => {
   
 }
 
+// Get all users 
+const getUsers = async (req, res) => {
+  const users = await User.find({}).sort({createdAt: -1})
 
-module.exports = { signupUser, loginUser, accountRecovery, confirmationCode }
+  res.status(200).json(users)
+}
+
+// delete a user
+const deleteUser = async (req, res) => {
+  const { userId } = req.body
+
+  if (!mongoose.Types.ObjectId.isValid(userId)) { // التحقق اذا كان المعرف صالح ام لا
+    return res.status(400).json({error: 'No such user'})
+  }
+
+  const user = await User.findOneAndDelete({_id: userId})
+
+  if(!user) {
+    return res.status(400).json({error: 'No such user'})
+  }
+
+  res.status(200).json(user)
+}
+
+
+module.exports = { signupUser, loginUser, accountRecovery, confirmationCode, getUsers, deleteUser }
