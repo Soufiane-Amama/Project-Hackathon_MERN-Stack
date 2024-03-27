@@ -23,39 +23,74 @@ const getTransactionsOfAdmin = async (req, res) => {
   
 
 // create a new transaction
-const createTransaction = async (req, res) => {
-    const { transactionType, amount } = req.body
+// const createTransaction = async (req, res) => {
+//     const { transactionType, amount } = req.body
   
-    // add to the database
-    try {
-        const user_id = req.user._id
+//     // add to the database
+//     try {
+//         const user_id = req.user._id
 
-        const user = await User.findById(user_id);
+//         const user = await User.findById(user_id);
         
-        if (transactionType === 'شراء من المتجر') {
+//         if (transactionType === 'شراء من المتجر') {
 
-            if (user.points < amount) {
-                return res.status(400).json({ message: 'نقاطك غير كافية لإتمام هذه العملية' });
-            }
-            transaction.status = 'تمت';
-            await transaction.save();
+//             if (user.points < amount) {
+//                 return res.status(400).json({ message: 'نقاطك غير كافية لإتمام هذه العملية' });
+//             }
+//             transaction.status = 'تمت';
+//             await transaction.save();
 
-            user.points -= amount; 
-            await user.save();
-        }
+//             user.points -= amount; 
+//             await user.save();
+//         }
 
-        const transaction = await Transaction.create({ 
-            userId: user_id,
-            transactionType: transactionType,
-            amount: amount,
-            status: 'معلقة'
-        }); 
+//         const transaction = await Transaction.create({ 
+//             userId: user_id,
+//             transactionType: transactionType,
+//             amount: amount,
+//             status: 'معلقة'
+//         }); 
         
-        res.status(200).json(transaction);
-    } catch (error) {
-        res.status(400).json({ error: error.message });
-    }
-}
+//         res.status(200).json(transaction);
+//     } catch (error) {
+//         res.status(400).json({ error: error.message });
+//     }
+// }
+
+
+// const createTransactions = async (req, res) => {
+//     const { userId, fullName, typeOfItems, date, Place, comments, transactionType, amount } = req.body
+  
+//     // add to the database
+//     try {
+//         const user_id = req.user._id
+
+//         const user = await User.findById(user_id);
+        
+//         if (transactionType === 'شراء من المتجر') {
+
+//             if (user.points < amount) {
+//                 return res.status(400).json({ message: 'نقاطك غير كافية لإتمام هذه العملية' });
+//             }
+//             transaction.status = 'تمت';
+//             await transaction.save();
+
+//             user.points -= amount; 
+//             await user.save();
+//         }
+
+//         const transaction = await Transaction.create({ 
+//             userId: user_id,
+//             transactionType: transactionType,
+//             amount: amount,
+//             status: 'معلقة'
+//         }); 
+        
+//         res.status(200).json(transaction);
+//     } catch (error) {
+//         res.status(400).json({ error: error.message });
+//     }
+// }
 
 
 // delete a transaction
@@ -76,7 +111,8 @@ const deleteTransaction = async (req, res) => {
 }
 
 
-// update a transaction
+
+// update a transaction  ***
 const updateTransaction = async (req, res) => {
     const { transactionId } = req.body
   
@@ -125,7 +161,6 @@ const updateAcceptedTransactions = cron.schedule('0 0 * * *', async (req, res) =
 });
 
 
-
 // هذا المعالج لتعديل حالة المعاملة اذا قبلت من المشرف وارسال النقاط الى المستخدم
 const increaseUserPoints = async (req, res) => {
   const {transactionId, userId, pointsToAdd } = req.body
@@ -134,6 +169,7 @@ const increaseUserPoints = async (req, res) => {
               const updatedTransaction = await Transaction.findByIdAndUpdate(
                   transactionId,
                   { status: 'على الطريق' },
+                  { amount: pointsToAdd },
                   { new: true }
               );
 
@@ -145,42 +181,20 @@ const increaseUserPoints = async (req, res) => {
       );
 
       console.log('User points updated:', updatedUser);
-      res.status(200).json({ message: 'تم تحديث نقاط المستخدم بنجاح', updatedUser });
+      res.status(200).json({ message: 'تم تحديث نقاط المستخدم بنجاح', updatedUser, updatedTransaction });
   } catch (error) {
       console.error('Error updating user points:', error);
       res.status(500).json({ error: 'حدث خطأ أثناء تحديث نقاط المستخدم' });
   }
 };
 
-
-
-// دالة لنقص عدد النقاط للمستخدم بالمقدار المحدد عند شراء منتج
-const decreaseUserPoints = async (req, res) => {
-  const { userId, pointsToSubtract } = req.body
-  try {
-      // ابحث عن المستخدم بمعرف الـID وقم بتحديث حقل النقاط
-      const updatedUser = await User.findOneAndUpdate(
-          { _id: userId }, // شرط البحث
-          { $inc: { points: -pointsToSubtract } }, // نقص قيمة النقاط بالمقدار المحدد
-          { new: true } // الحصول على المستند المحدث بعد التحديث
-      );
-
-      console.log('User points updated:', updatedUser);
-      res.status(200).json({ message: 'تم تحديث نقاط المستخدم بنجاح', updatedUser });
-  } catch (error) {
-      console.error('Error updating user points:', error);
-      res.status(500).json({ error: 'حدث خطأ أثناء تحديث نقاط المستخدم' });
-  }
-};
 
 
 module.exports = {
     getTransactions,
-    createTransaction,
     deleteTransaction,
     updateTransaction,
     getTransactionsOfAdmin,
     increaseUserPoints,
-    decreaseUserPoints,
     updateAcceptedTransactions
 }

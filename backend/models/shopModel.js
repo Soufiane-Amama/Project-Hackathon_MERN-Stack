@@ -19,10 +19,6 @@ const shopSchema = new Schema({
       type: Number,
       required: true
     },
-    coupon: {
-      type: Number,
-      required: true
-    }
   }, { timestamps: true }) 
   
   module.exports = mongoose.model('Shop', shopSchema)

@@ -1,7 +1,6 @@
 const express = require('express')
 const {
     getTransactions,
-    createTransaction,
     deleteTransaction,
     updateTransaction,
     getTransactionsOfAdmin,
@@ -20,7 +19,7 @@ router.use(requireAuth)
 router.get('/', getTransactions)
 
 // POST a new transaction
-router.post('/', createTransaction)
+// router.post('/', createTransaction)
 
 // DELETE a transaction
 router.delete('/', deleteTransaction)

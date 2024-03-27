@@ -115,7 +115,6 @@ const accountRecovery = async (req, res) => {
   }
 }
 
-
 // Processing user code
 const confirmationCode = (req, res) => {
   const { inputValues } = req.body;

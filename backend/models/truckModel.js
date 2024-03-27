@@ -3,7 +3,7 @@ const mongoose = require('mongoose')
 const Schema = mongoose.Schema
 
 
-const requestTruckSchema = new Schema({
+const truckSchema = new Schema({
     userId: { 
         type: Schema.Types.ObjectId, 
         ref: 'User',
@@ -30,4 +30,4 @@ const requestTruckSchema = new Schema({
       }
   }, { timestamps: true }) 
   
-  module.exports = mongoose.model('RequestTruck', requestTruckSchema)
+  module.exports = mongoose.model('Truck', truckSchema)
