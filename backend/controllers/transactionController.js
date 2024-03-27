@@ -4,7 +4,7 @@ const mongoose = require('mongoose')
 const cron = require('node-cron');
 
 
-// get all transactions
+// get all transactions of the user
 const getTransactions = async (req, res) => {
   const userId = req.user._id
 
@@ -13,6 +13,14 @@ const getTransactions = async (req, res) => {
   res.status(200).json(transactions)
 }
 
+
+// Get all transactions of the admin
+const getTransactionsOfAdmin = async (req, res) => {
+    const transactions = await Transaction.find({}).sort({createdAt: -1})
+  
+    res.status(200).json(transactions)
+  }
+  
 
 // create a new transaction
 const createTransaction = async (req, res) => {
@@ -52,13 +60,13 @@ const createTransaction = async (req, res) => {
 
 // delete a transaction
 const deleteTransaction = async (req, res) => {
-    const { id } = req.body
+    const { transactionId  } = req.body
   
-    if (!mongoose.Types.ObjectId.isValid(id)) {
+    if (!mongoose.Types.ObjectId.isValid(transactionId )) {
       return res.status(400).json({error: 'No such transaction'})
     }
   
-    const transaction = await Transaction.findOneAndDelete({_id: id})
+    const transaction = await Transaction.findOneAndDelete({_id: transactionId})
   
     if(!transaction) {
       return res.status(400).json({error: 'No such transaction'})
@@ -70,13 +78,13 @@ const deleteTransaction = async (req, res) => {
 
 // update a transaction
 const updateTransaction = async (req, res) => {
-    const { id } = req.params
+    const { transactionId } = req.body
   
-    if (!mongoose.Types.ObjectId.isValid(id)) {
+    if (!mongoose.Types.ObjectId.isValid(transactionId)) {
       return res.status(400).json({error: 'No such transaction'})
     }
   
-    const transaction = await Transaction.findOneAndUpdate({_id: id}, { ...req.body }) 
+    const transaction = await Transaction.findOneAndUpdate({_id: transactionId}, { ...req.body }) 
   
     if (!transaction) {
       return res.status(400).json({error: 'No such transaction'})
@@ -171,6 +179,8 @@ module.exports = {
     createTransaction,
     deleteTransaction,
     updateTransaction,
+    getTransactionsOfAdmin,
     increaseUserPoints,
-    decreaseUserPoints
+    decreaseUserPoints,
+    updateAcceptedTransactions
 }
