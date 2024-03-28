@@ -11,14 +11,14 @@ const shopSchema = new Schema({
       type: String,
       required: true
     },
+    description: {
+      type: String,
+      required: true
+    },
     points: {
       type: Number,
       required: true
     },
-    coupons: {
-      type: Number,
-      required: true
-    }
   }, { timestamps: true }) 
   
   module.exports = mongoose.model('Shop', shopSchema)

@@ -30,6 +30,10 @@ const userSchema = new Schema({
   password: {
     type: String,
     required: true
+  },
+  points: { 
+    type: Number, 
+    default: 0 
   }
 })
 
@@ -48,10 +52,11 @@ userSchema.statics.signup = async function(fullName, phoneNumber, country, city,
     throw Error('Password not strong enough')
   }
 
-  const exists = await this.findOne({ email }) 
+  const mailExists = await this.findOne({ email }) 
+  const phoneExists = await this.findOne({ phoneNumber }) 
 
-  if (exists) {
-    throw Error('Email already in use')
+  if (mailExists || phoneExists) {
+    throw Error('Email or Phone number already in use')
   }
 
   const salt = await bcrypt.genSalt(10) 

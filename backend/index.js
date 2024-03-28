@@ -3,7 +3,11 @@ require('dotenv').config()
 const express = require('express')
 const mongoose = require('mongoose')
 const cors = require('cors')
+
 const userRoutes = require('./routes/user')
+const transactionRoutes = require('./routes/transactions')
+const truckRoutes = require('./routes/truck')
+const shopRoutes = require('./routes/shop')
 
 
 // express app 
@@ -25,11 +29,9 @@ app.use((req, res, next) => {
 
 // routes
 app.use('/api/user', userRoutes)
-
-app.get('/', (req, res)=>{
-    res.status(200).json({ message: "Hello World !"})
-})
-
+app.use('/api/transactions', transactionRoutes)
+app.use('/api/truck', truckRoutes)
+app.use('/api/shop', shopRoutes)
 
 
 // connect to db
