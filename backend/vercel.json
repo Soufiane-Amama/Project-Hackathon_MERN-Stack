@@ -7,21 +7,37 @@
       }
     ],
     "routes": [
-        {
-          "src": "/api/user/(.*)", 
-          "dest": "/api/user/$1" 
-        },
-        {
-          "src": "/api/transactions/(.*)", 
-          "dest": "/api/transactions/$1" 
-        },
-        {
-          "src": "/api/truck/(.*)",
-          "dest": "/api/truck/$1" 
-        },
-        {
-          "src": "/api/shop/(.*)", 
-          "dest": "/api/shop/$1" 
-        }
+      {
+        "src": "/api/user/login",
+        "dest": "/api/user/login"
+      },
+      {
+        "src": "/api/user/signup",
+        "dest": "/api/user/signup"
+      },
+      {
+        "src": "/api/user/recovery",
+        "dest": "/api/user/recovery"
+      },
+      {
+        "src": "/api/user/confirmation",
+        "dest": "/api/user/confirmation"
+      },
+      {
+        "src": "/api/user/(.*)",
+        "dest": "/api/user/$1"
+      },
+      {
+        "src": "/api/transactions",
+        "dest": "/routes/transactions.js"
+      },
+      {
+        "src": "/api/truck",
+        "dest": "/routes/truck.js"
+      },
+      {
+        "src": "/api/shop",
+        "dest": "/routes/shop.js"
+      }
       ]
 }
