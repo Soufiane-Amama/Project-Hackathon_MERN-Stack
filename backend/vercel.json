@@ -1,0 +1,23 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "./index.js",
+        "use": "@vercel/node"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/api/(.*)",
+        "dest": "/api/"
+      }
+    ],
+    "env": {
+      "MONGO_URI": "mongodb+srv://rbsteam:root1234@cluster0.c44cguv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+      "SECRET": "uhqvjhmko5dq1s1l",
+      
+      "MAIL_USER": "soufianeamama70@gmail.com",
+      "MAIL_PASS": "xrnzpkppcswwlxiq"
+    }
+}
+
