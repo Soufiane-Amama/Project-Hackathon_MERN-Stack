@@ -10,7 +10,7 @@ const requireAuth = require('../middleware/requireAuth')
 const router = express.Router()
 
 // require auth for all workout routes - وسيطة المصادقة 
-router.use(requireAuth)
+// router.use(requireAuth)
 
 
 

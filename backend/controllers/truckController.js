@@ -22,7 +22,7 @@ const getRequestsTrucksOfAdmin = async (req, res) => {
 }
 
 
-// create a new transaction
+// create a new request Truck
 const createRequestTruck = async (req, res) => {
     const { userId, fullName, typeOfItems, date, place, comments } = req.body
 
