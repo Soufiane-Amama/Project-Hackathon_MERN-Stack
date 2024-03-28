@@ -2,6 +2,7 @@ const User = require('../models/userModel')
 const jwt = require('jsonwebtoken')
 const mongoose = require('mongoose');
 const { createTransporter, createMailOptions } = require('../helpers/email');
+const sendEmail = require('../helpers/emailService');
 
 const createToken = (_id) => { 
   return jwt.sign({_id}, process.env.SECRET, { expiresIn: '3d' }) 
@@ -54,21 +55,32 @@ const signupUser = async (req, res) => {
 
   try {
 
-        // تجهيز الرسالة
-        const transporter = createTransporter();
-        const mailOptions = createMailOptions(email, verificationCode);
+
+        // ارسال رسالة الى الايميل الحقيقي
+        const to = email;
+        const subject = 'رسالة ترحيب';
+        const text = `
+        مرحبا ${fullName} 
+        مرحبا بك في تطبيقنا
+        `;
+        sendEmail(to, subject, text);
+
+        
+        // تجهيز الرسالة تجريبية
+        // const transporter = createTransporter();
+        // const mailOptions = createMailOptions(email, verificationCode);
 
         // إرسال البريد الإلكتروني
-        transporter.sendMail(mailOptions, (error, info) => {
-          if (error) {
-          console.log(error);
-          } else {
-          console.log('Email sent: ' + info.response);
-          setTimeout(() => {
-            verificationCode = generateVerificationCode();
-          }, 60 * 60 * 1000);
-          } 
-        });
+        // transporter.sendMail(mailOptions, (error, info) => {
+        //   if (error) {
+        //   console.log(error);
+        //   } else {
+        //   console.log('Email sent: ' + info.response);
+        //   setTimeout(() => {
+        //     verificationCode = generateVerificationCode();
+        //   }, 60 * 60 * 1000);
+        //   } 
+        // });
 
         const user = await User.signup(fullName, phoneNumber, country, city, email, password) 
 
