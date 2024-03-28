@@ -22,76 +22,6 @@ const getTransactionsOfAdmin = async (req, res) => {
   }
   
 
-// create a new transaction
-// const createTransaction = async (req, res) => {
-//     const { transactionType, amount } = req.body
-  
-//     // add to the database
-//     try {
-//         const user_id = req.user._id
-
-//         const user = await User.findById(user_id);
-        
-//         if (transactionType === 'شراء من المتجر') {
-
-//             if (user.points < amount) {
-//                 return res.status(400).json({ message: 'نقاطك غير كافية لإتمام هذه العملية' });
-//             }
-//             transaction.status = 'تمت';
-//             await transaction.save();
-
-//             user.points -= amount; 
-//             await user.save();
-//         }
-
-//         const transaction = await Transaction.create({ 
-//             userId: user_id,
-//             transactionType: transactionType,
-//             amount: amount,
-//             status: 'معلقة'
-//         }); 
-        
-//         res.status(200).json(transaction);
-//     } catch (error) {
-//         res.status(400).json({ error: error.message });
-//     }
-// }
-
-
-// const createTransactions = async (req, res) => {
-//     const { userId, fullName, typeOfItems, date, Place, comments, transactionType, amount } = req.body
-  
-//     // add to the database
-//     try {
-//         const user_id = req.user._id
-
-//         const user = await User.findById(user_id);
-        
-//         if (transactionType === 'شراء من المتجر') {
-
-//             if (user.points < amount) {
-//                 return res.status(400).json({ message: 'نقاطك غير كافية لإتمام هذه العملية' });
-//             }
-//             transaction.status = 'تمت';
-//             await transaction.save();
-
-//             user.points -= amount; 
-//             await user.save();
-//         }
-
-//         const transaction = await Transaction.create({ 
-//             userId: user_id,
-//             transactionType: transactionType,
-//             amount: amount,
-//             status: 'معلقة'
-//         }); 
-        
-//         res.status(200).json(transaction);
-//     } catch (error) {
-//         res.status(400).json({ error: error.message });
-//     }
-// }
-
 
 // delete a transaction
 const deleteTransaction = async (req, res) => {
@@ -112,7 +42,7 @@ const deleteTransaction = async (req, res) => {
 
 
 
-// update a transaction  ***
+// update a transaction  *** معالج معلق
 const updateTransaction = async (req, res) => {
     const { transactionId } = req.body
   
@@ -193,7 +123,6 @@ const increaseUserPoints = async (req, res) => {
 module.exports = {
     getTransactions,
     deleteTransaction,
-    updateTransaction,
     getTransactionsOfAdmin,
     increaseUserPoints,
     updateAcceptedTransactions

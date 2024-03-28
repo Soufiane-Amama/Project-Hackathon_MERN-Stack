@@ -1,9 +1,5 @@
 const Transaction = require('../models/transactionModel')
-const User = require('../models/userModel')
 const Truck = require('../models/truckModel')
-
-const mongoose = require('mongoose')
-
 
 // GET all requests Trucks  of the user
 const getRequestsTrucks = async (req, res) => {

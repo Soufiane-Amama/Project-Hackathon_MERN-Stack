@@ -12,7 +12,7 @@ const requireAuth = require('../middleware/requireAuth')
 const router = express.Router()
 
 // require auth for all workout routes - وسيطة المصادقة 
-router.use(requireAuth)
+// router.use(requireAuth)
 
 
 // POST a new Purchase Order
@@ -29,7 +29,7 @@ router.post('/of-admin', createProduct)
 router.delete('/of-admin', deleteProduct)
 
 // update a product
-router.patch('/of-admin/:id', updateProduct)
+router.patch('/of-admin', updateProduct)
 
 
 
