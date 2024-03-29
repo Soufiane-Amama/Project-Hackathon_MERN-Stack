@@ -166,20 +166,20 @@ const Sighnin = () => {
             <h3 className='text-center mb-6 text-black'>   انشاء حساب      </h3>
             <form onSubmit={handleSubmit} >
               <div className='mb-4'>
-                <label className='block mb-1'>اسم المستخدم:</label>
+                <label className='block mb-1'>اسم المستخدم</label>
                 <input type='text' value={fullName} onChange={handlefullNameChange} className='w-full p-2 border border-gray-300 bg-white rounded-md' />
               </div>
               <div className='mb-4'>
-                <label className='block mb-1'>البريد الالكتروني:</label>
+                <label className='block mb-1'>البريد الالكتروني   </label>
                 <input type='text' value={email} onChange={handleEmailChange} className='w-full p-2 border border-gray-300 bg-white rounded-md' />
               </div>
               <div className='mb-4'>
-                <label className='block mb-1'>رقم الهاتف:</label>
-                <input type='text' value={phoneNumber} onChange={handlephoneNumberChange} className='w-full p-2 border bg-white border-gray-300 rounded-md' />
+                <label className='block mb-1'>رقم الهاتف</label>
+                <input type='text' value={phoneNumber} onChange={handlephoneNumberChange} className=' w-full p-2 border bg-white border-gray-300 rounded-md' />
               </div>
               <div className='mb-4'>
-                <label className='block mb-1'> تونس:</label>
-                <select value={country} onChange={handleCountryChange} className='w-full p-2 border border-gray-300 rounded-md bg-white'>
+                <label className='block mb-1 '> البلد</label>
+                <select value={country} onChange={handleCountryChange} className=' text-end w-full p-2 border border-gray-300 rounded-md bg-white'>
                   <option value='السعودية'> السعودية</option>
                   <option value='قطر'>  قطر </option>
                   <option value='تونس'>  تونس </option>
@@ -188,15 +188,15 @@ const Sighnin = () => {
                 </select>
               </div>
               <div className='mb-4'>
-                <label className='block mb-1'>المدينة:</label>
+                <label className='block mb-1'>المدينة</label>
                 <input type='text' value={city} onChange={handleCityChange} className='w-full p-2 border border-gray-300 rounded-md bg-white' />
               </div>
               <div className='mb-4'>
-                <label className='block mb-1'>كلمة المرور:</label>
+                <label className='block mb-1'>كلمة المرور</label>
                 <input type='password' value={password} onChange={handlePasswordChange} className='w-full p-2 border border-gray-300 bg-white rounded-md' />
               </div>
               <div className='mb-4'>
-                <label className='block mb-1'>اعادة كلمة المرور:</label>
+                <label className='block mb-1'>اعادة كلمة المرور</label>
                 <input type='password' value={confirmPassword} onChange={handleConfirmPasswordChange} className='w-full p-2 border bg-white border-gray-300 rounded-md' />
               </div>
               {error && <div style={{ color: 'red' }}>{error}</div>}

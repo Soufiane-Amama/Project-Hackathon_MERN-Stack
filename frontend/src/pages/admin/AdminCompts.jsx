@@ -62,7 +62,7 @@ const AdminCompts = () => {
                               <tr key={index}>
                                 <td>
                                   <div className='rounded-full inline-block text-center'>
-                                    <div className='flex flex-col justify-center'>
+                                    <div className='flex flex-col justify-center items-center'>
                                       <img className='rounded-full w-16' src={avatar} alt="" />
                                       <div>#{user._id}</div>
                                     </div>

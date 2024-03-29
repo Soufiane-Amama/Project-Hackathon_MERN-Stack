@@ -91,7 +91,7 @@ const Login = () => {
   return (
     <>
       <Navbar/>
-      <div className='flex justify-center items-center  h-screen bg-teal-600 pt-20'>
+      <div className='flex justify-center items-center   md:h-screen bg-teal-600 pt-20'>
           
           <div className='  flex justify-center flex-col md:flex-row items-center gap-10 w-full p-8 text-white font-semibold text-right ' >
             

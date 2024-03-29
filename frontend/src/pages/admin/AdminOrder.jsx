@@ -73,7 +73,7 @@ const AdminOrder = () => {
             console.error('Error updating transaction:', error);
         }
 
-
+    }
 
     return (
         <>
@@ -121,6 +121,6 @@ const AdminOrder = () => {
             </div>
         </>
     );
-}
+
 };
 export default AdminOrder;
