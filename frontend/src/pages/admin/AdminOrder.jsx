@@ -121,6 +121,6 @@ const AdminOrder = () => {
             </div>
         </>
     );
+}
 };
-
 export default AdminOrder;
