@@ -36,7 +36,7 @@ app.use('/api/shop', shopRoutes)
 
 
 app.get('/test', (req, res) => {
-  res.json({ mss:'Hello Express Js!'});
+  res.json({ mss:'Hello RBS TEAM !'});
 });
 
 

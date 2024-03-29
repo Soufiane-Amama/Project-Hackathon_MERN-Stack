@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Alexandria", sans-serif;
+    font-optical-sizing: auto;
+    scroll-behavior: smooth;
+}
+
+
+
+.custom-color {
+  --color-teal: #00917C;
+}
+
+.home-container {
+  width: 100%;
+  height: 100vh;
+  background-color: #f00; /* fallback color */
+  background-image: url('../src/images/1.jpg');
+  background-size: cover;
+  background-position: center;
+  
+  background-color: rgba(39, 34, 34, 0.5); /* Red color with 50% opacity */
+}
