@@ -34,9 +34,11 @@ app.use('/api/truck', truckRoutes)
 app.use('/api/shop', shopRoutes)
 
 
+
 app.get('/test', (req, res) => {
   res.json({ mss:'Hello Express Js!'});
 });
+
 
 // connect to db
 mongoose.connect(process.env.MONGO_URI)
