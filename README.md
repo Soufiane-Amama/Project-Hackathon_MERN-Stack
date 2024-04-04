@@ -11,8 +11,8 @@
 - ريان بن حسن
 - سفيان عماما
 
-رابط التطبيق : https://hackathon-pro-ten.vercel.app
-رابط لوحة التحكم : https://hackathon-pro-ten.vercel.app/admin/dashboard
+- رابط التطبيق : https://hackathon-pro-ten.vercel.app
+- رابط لوحة التحكم : https://hackathon-pro-ten.vercel.app/admin/dashboard
 
 رابط كل اعمالنا والفيديوهات والمستندات التي قمنا بعملها كفريق متعاون
 🔻🔻🔻
