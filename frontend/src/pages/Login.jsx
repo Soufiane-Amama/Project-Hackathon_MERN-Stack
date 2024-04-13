@@ -5,14 +5,14 @@ import hand from '../images/flow.png';
 import useURL from '../hooks/useURL';
 const Login = () => {
 
-  useEffect(() => {
+ // useEffect(() => {
     // Check if the user is already logged in
-    const token = localStorage.getItem('token');
-    if (token) {
+  //  const token = localStorage.getItem('token');
+   // if (token) {
       // If token is present, redirect the user to the dashboard
-      window.location.href = '/dashboard';
-    }
-  }, []); // Run this effect only once on component mount
+  //    window.location.href = '/dashboard';
+  //  }
+ // }, []); // Run this effect only once on component mount
 
 
   const [email, setemail] = useState('');
