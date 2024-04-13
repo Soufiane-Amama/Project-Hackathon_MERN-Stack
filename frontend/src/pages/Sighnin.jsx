@@ -9,14 +9,14 @@ import useURL from '../hooks/useURL';
 
 const Sighnin = () => {
 
-  useEffect(() => {
+//  useEffect(() => {
     // Check if the user is already logged in
-    const token = localStorage.getItem('token');
-    if (token) {
+ //   const token = localStorage.getItem('token');
+//    if (token) {
       // If token is present, redirect the user to the dashboard
-      window.location.href = '/dashboard';
-    }
-  }, []); // Run this effect only once on component mount
+ //     window.location.href = '/dashboard';
+ //   }
+//  }, []); // Run this effect only once on component mount
 
   const [fullName, setfullName] = useState('');
   const [password, setPassword] = useState('');
